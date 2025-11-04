@@ -26,8 +26,7 @@ module.exports = function (router) {
                     return res.status(500).json({
                         message: 'SERVER ERROR',
                         data: {
-                            error: 'The database server could not count the documents',
-                            errorMessage: err
+                            error: 'The database server could not count the documents'
                         }
                     });
                 }
@@ -42,8 +41,7 @@ module.exports = function (router) {
                     return res.status(500).json({
                         message: 'SERVER ERROR',
                         data: {
-                            error: 'The database server could not load the document',
-                            errorMesage: err
+                            error: 'The database server could not load the document'
                         }
                     });
                 }
@@ -79,8 +77,7 @@ module.exports = function (router) {
                 return res.status(500).json({
                     message: 'SERVER ERROR',
                     data: {
-                        error: 'The database server could not save the document',
-                        errorMessage: err
+                        error: 'The database server could not save the document'
                     }
                 });
             }
@@ -112,8 +109,7 @@ module.exports = function (router) {
                 return res.status(500).json({
                     message: 'SERVER ERROR',
                     data: {
-                        error: 'The databse server could not retrieve the record',
-                        errorMessage: err
+                        error: 'The database server could not retrieve the record'
                     }
                 })
             }
@@ -149,8 +145,7 @@ module.exports = function (router) {
                 return res.status(500).json({
                     message: 'SERVER ERROR',
                     data: {
-                        error: 'The database server could not retrieve the record',
-                        errorMessage: err
+                        error: 'The database server could not retrieve the record'
                     }
                 });
             }
@@ -182,8 +177,7 @@ module.exports = function (router) {
                         return res.status(500).json({
                             message: 'SERVER ERROR',
                             data: {
-                                error: 'The database server could not update the record',
-                                errorMessage: err
+                                error: 'The database server could not update the record'
                             }
                         });
                     }
@@ -227,8 +221,7 @@ module.exports = function (router) {
                 return res.status(500).json({
                     message: 'SERVER ERROR',
                     data: {
-                        error: 'The database server could not delete the record',
-                        errorMessage: err
+                        error: 'The database server could not delete the record'
                     }
                 });
             }
